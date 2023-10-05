@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    font-size: 20pt;
+    font-family: sans-serif;
+    
+    color:rgb(137, 172, 223);
+}
+h1{
+    -webkit-transform: rotate(-15deg); /* Safari e Chrome*/
+}
+
+#avanti{
+    background-color: greenyellow;
+    
+}
+#indietro{
+    background-color: lightcoral;
+}
+button{
+    width: 140px;
+    height: 80px;
+    border-radius: 10px;
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container{
+    border: 2px solid black;
+    height: 650px;
+    width: 600px;
+    
+    
+}
+#proprietario{
+    float: right;
+    margin-right: 150px;
+    font-size: 15pt;
+}
+#animale{
+    float: left;
+    margin-left: 150px;
+    font-size: 15pt;
+}
+#invia{
+    color: cadetblue;
+    margin: auto;
+}
+#elencoVisite{
+    text-align: center;
+    border:  2px solid blue;
+   
+}
+p {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+p:hover{
+    color: blue;
+    background-color: aquamarine;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+
